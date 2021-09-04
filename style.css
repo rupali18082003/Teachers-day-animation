@@ -1,0 +1,268 @@
+		body{
+			background-color: black;
+			
+			background-size: cover;
+			background-repeat: no-repeat;
+		}
+		.stars{
+			color: white;
+			font-size: 40px;
+			text-align: center;
+			align-content: center;
+			align-items: center;
+		}
+		.hl{
+			color: white;
+			display: flex;
+		}
+		#moon{
+			height: 70px;
+			width: 70px;
+			border-radius: 80px;
+			background-color: white;
+			border: 5px solid white;
+			margin-left: 10%;
+		}
+		.white{
+			color: white;
+			margin: 4px;
+		}
+		span{
+			text-align: center;
+			background-color: black;
+			animation-duration: 16s;
+			animation-iteration-count: infinite;
+			animation-timing-function: ease-in-out;
+			animation-fill-mode: backwards;
+		}
+		
+		#s1{
+			animation-name: s1;
+			position: relative;
+			animation-iteration-count: infinite;
+		}
+		@keyframes s1{
+			100%{
+				top: 570px;
+			}
+			90%{
+				top: 560px;
+			}
+			80%{
+				top: 550px;
+			}
+			75%{
+				top: 540px;
+			}
+			65%{
+				top: 520px;
+			}
+			55%{
+				top: 440px;
+			}
+			45%{
+				top: 400px;
+			}
+			35%{
+				top: 370px;
+			}
+			30%{
+				top: 300px;
+			}
+			25%{
+				top: 190px;
+			}
+			20%{
+				top: 100px;
+			}
+			10%{
+				top: 50px;
+			}
+			0%{
+				top: 10px;
+			}
+		}
+		#s2{
+			animation-name: s2;
+			position: relative;
+			animation-iteration-count: infinite;
+		}
+		@keyframes s2{
+			100%{
+				top: 570px;
+			}
+			95%{
+				top: 560px;
+			}
+			80%{
+				top: 550px;
+			}
+			75%{
+				top: 520px;
+			}
+			65%{
+				top: 500px;
+			}
+			55%{
+				top: 480px;
+			}
+			45%{
+				top: 430px;
+			}
+			35%{
+				top: 380px;
+			}
+			30%{
+				top: 200px;
+			}
+			25%{
+				top: 150px;
+			}
+			20%{
+				top: 100px;
+			}
+			15%{
+				top: 60px;
+			}
+			10%{
+				top: 30px;
+			}
+			0%{
+				top: 10px;
+			}
+		}
+		#s3{
+			animation-name: s3;
+			position: relative;
+			animation-iteration-count: infinite;
+		}
+		@keyframes s3{
+			100%{
+				top: 570px;
+			}
+			95%{
+				top: 560px;
+			}
+			80%{
+				top: 550px;
+			}
+			75%{
+				top: 520px;
+			}
+			65%{
+				top: 420px;
+			}
+			55%{
+				top: 380px;
+			}
+			45%{
+				top: 300px;
+			}
+			35%{
+				top: 220px;
+			}
+			30%{
+				top: 180px;
+			}
+			25%{
+				top: 120px;
+			}
+			20%{
+				top: 80px;
+			}
+			15%{
+				top: 50px;
+			}
+			10%{
+				top: 20px;
+			}
+			0%{
+				top: 5px;
+			}
+		}
+		.box{
+			
+			border-radius: 10px;
+			font-size: 30px;
+			text-align: center;
+			align-items: center;
+			font-family: monospace;
+			margin: 9%;
+			padding: 20px;
+
+			letter-spacing: 2px;
+			color: white;
+			background-color: black;
+			
+			animation-name: boxAnim;
+			animation-duration: 16s;
+			animation-iteration-count: infinite;
+			animation-timing-function: ease-in-out;
+			animation-fill-mode: backwards;
+		}
+		.italic{
+			font-style: italic;
+			animation-name: boxAnim;
+			animation-duration: 16s;
+			animation-iteration-count: infinite;
+			animation-timing-function: ease-in-out;
+			animation-fill-mode: backwards;
+		}
+		@keyframes boxAnim{
+			0%{
+				top: ;
+				left: ;
+				color: red;
+				background-color: black;
+				opacity: 0.1;
+			}
+			25%{
+				top: ;
+				left: ;
+				color: white;
+				background-color: grey;
+				opacity: 0.3;
+			}
+			45%{
+				top: ;
+				left: ;
+				color: purple;
+				background-color: pink;
+				opacity: .9;
+			}
+			50%{
+				top: ;
+				left: ;
+				color: purple;
+				background-color: tomato;
+				opacity: 1.2;
+			}
+			65%{
+				top: ;
+				left: ;
+				color: purple;
+				background-color: yellow;
+				opacity: 1.5;
+			}
+			80%{
+				top: ;
+				left: ;
+				color: white;
+				background-color: green;
+				opacity: 1.9;
+			}
+			90%{
+				top: ;
+				left: ;
+				color: blue;
+				background-color: black;
+				opacity: 2.4;
+			}
+			100%{
+				top: ;
+				left: ;
+				color: red;
+				background-color: black;
+				opacity: 2.4;
+			}
+		}
